@@ -45,6 +45,7 @@ const Body = () => {
 const styles = {
   body: {
     display: "flex",
+    justifyContent: "center",
     flexWrap: "wrap",
   },
   card: {
