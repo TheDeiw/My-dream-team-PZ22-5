@@ -22,7 +22,6 @@ const Body = () => {
         <div style={styles.textContainer}>
           <h2 style={styles.name}>Fedorchuk Roman</h2>
           <p style={styles.position}>Buisness Analysyst</p>
-
         </div>
       </div>
       <div style={styles.card}>
@@ -30,6 +29,13 @@ const Body = () => {
         <div style={styles.textContainer}>
           <h2 style={styles.name}>Shala Maksym</h2>
           <p style={styles.position}>DevOps</p>
+        </div>
+      </div>
+      <div style={styles.card}>
+      <img src={"/Chepeliuk.jpg"} alt="Mariia Chepeliuk" style={styles.photo} />
+        <div style={styles.textContainer}>
+          <h2 style={styles.name}>Mariia Chepeliuk</h2>
+          <p style={styles.position}>QA Engineer</p>
         </div>
       </div>
     </main>
