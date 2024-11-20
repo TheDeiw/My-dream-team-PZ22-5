@@ -38,6 +38,14 @@ const Body = () => {
           <p style={styles.position}>QA Engineer</p>
         </div>
       </div>
+
+      <div style={styles.card}>
+      <img src={"/Hide_the_Pain_Harold_(András_Arató).png"} alt="Petro Mykora" style={styles.photo} />
+        <div style={styles.textContainer}>
+          <h2 style={styles.name}>Petro Mykora</h2>
+          <p style={styles.position}>QA Engineer</p>
+        </div>
+      </div>
     </main>
   );
 };
